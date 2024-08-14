@@ -56,7 +56,7 @@
       <time>599</time>
       <time>660</time>
     </partnerAcquisition>
-    <partnerNetwork enabled="true" tossIfCalibFail="false">
+    <partnerNetwork enabled="false" tossIfCalibFail="false">
       <time>6</time>
       <time>60</time>
       <time>120</time>
@@ -201,7 +201,7 @@
   <population id="Miami">
     <ageOfMajority>17</ageOfMajority>
     <initialState useCounts="false">
-      <size>1000</size>
+      <size>10000</size>
       <useCounts>false</useCounts>
       <entityDistributions>
         <ageRangeDistributions>
@@ -336,133 +336,133 @@
           <partnerRiskLevel>high</partnerRiskLevel>
           <monthsSinceUnprotectedAct>12</monthsSinceUnprotectedAct>
         </prepEligibility>
-        <prepAccess>0.000029,0.000066,0.000083,0.000135,0.0002911,0.000847,0.001772,0.001844,0.00136</prepAccess> <!-- changed to WHITES, NMR 02 13 2024-->
+        <prepAccess>0.00000029,0.00000066,0.00000083,0.00000135,0.000002911,0.00000847,0.00001772,0.00001844,0.0000136</prepAccess> <!-- changed to WHITES, NMR 02 13 2024-->
         <prepAdherence>0.0189,0.0257,0.04,0.9154</prepAdherence>
            <prepRetention>0.020,0.020,0.020,0.010,0.010,0.010,0.010,0.011,0.011,0.015,0.015,0.015</prepRetention> <!--these values are LTFs 02 13 2024 -->      
-        <prepReturnToCare>0.000029,0.000066,0.000083,0.000135,0.0002911,0.000847,0.001772,0.001844,0.00136</prepReturnToCare>
+        <prepReturnToCare>0.00000029,0.00000066,0.00000083,0.00000135,0.000002911,0.00000847,0.00001772,0.00001844,0.0000136</prepReturnToCare>
       </prepDefaults>
       <prepProfiles>
         
 		<demographic bucket="SA:MALE:MSW:*:*:WHITE:NON_HISPANIC"> <!--WHITES ADDED on 02 13 2024-->
-          <prepAccess>0.000021,0.000097,0.000133,0.000265,0.000398,0.000701,0.001036,0.001242,0.00001369</prepAccess>
+          <prepAccess>0.00000021,0.00000097,0.00000133,0.00000265,0.00000398,0.00000701,0.00001036,0.00001242,0.00001369</prepAccess>
            <prepAdherence>0.0189,0.0257,0.04,0.9154</prepAdherence>
            <prepRetention>0.020,0.020,0.020,0.010,0.010,0.010,0.010,0.011,0.011,0.015,0.015,0.015</prepRetention> 
-          <prepReturnToCare>0.000021,0.000097,0.000133,0.000265,0.000398,0.000701,0.001036,0.001242,0.001369</prepReturnToCare>
+          <prepReturnToCare>0.00000021,0.00000097,0.00000133,0.00000265,0.00000398,0.00000701,0.00001036,0.00001242,0.00001369</prepReturnToCare>
         </demographic>
 		<demographic bucket="SA:MALE:MSW:*:*:WHITE:HISPANIC"> <!--HISPANICS ADDED on 02 13 2024-->
-          <prepAccess>0.000021,0.000097,0.000133,0.000265,0.000398,0.000701,0.001036,0.001242,0.001369</prepAccess>
+          <prepAccess>0.00000021,0.00000097,0.00000133,0.00000265,0.00000398,0.00000701,0.00001036,0.00001242,0.00001369</prepAccess>
            <prepAdherence>0.0568,0.0449,0.1320,0.7663</prepAdherence>
            <prepRetention>0.120,0.039,0.041,0.012,0.012,0.012,0.021,0.021,0.022,0.004,0.004,0.004</prepRetention>
-          <prepReturnToCare>0.000021,0.000097,0.000133,0.000265,0.000398,0.000701,0.001036,0.001242,0.001369</prepReturnToCare>
+          <prepReturnToCare>0.00000021,0.00000097,0.00000133,0.00000265,0.00000398,0.00000701,0.00001036,0.00001242,0.00001369</prepReturnToCare>
         </demographic>
 		<demographic bucket="SA:MALE:MSW:*:*:BLACK:NON_HISPANIC"> <!--BLACKS ADDED on 02 13 2024-->
-          <prepAccess>0.000021,0.000097,0.000133,0.000265,0.000398,0.000701,0.001036,0.001242,0.001369</prepAccess>
+          <prepAccess>0.00000021,0.00000097,0.00000133,0.00000265,0.00000398,0.00000701,0.00001036,0.00001242,0.00001369</prepAccess>
            <prepAdherence>0.0455,0.1317,0.2484,0.5744</prepAdherence>
            <prepRetention>0.150,0.058,0.062,0.031,0.032,0.033,0.014,0.014,0.015,0.015,0.015,0.015</prepRetention> 
-          <prepReturnToCare>0.000021,0.000097,0.000133,0.000265,0.000398,0.000701,0.001036,0.001242,0.001369</prepReturnToCare>
+          <prepReturnToCare>0.00000021,0.00000097,0.00000133,0.00000265,0.00000398,0.00000701,0.00001036,0.00001242,0.00001369</prepReturnToCare>
         </demographic>
 		<demographic bucket="SA:MALE:MSW:*:*:BLACK:HISPANIC"> <!--HISPANICS ADDED on 02 13 2024-->
-          <prepAccess>0.000021,0.000097,0.000133,0.000265,0.000398,0.000701,0.001036,0.001242,0.001369</prepAccess>
+          <prepAccess>0.00000021,0.00000097,0.00000133,0.00000265,0.00000398,0.00000701,0.00001036,0.00001242,0.00001369</prepAccess>
            <prepAdherence>0.0568,0.0449,0.1320,0.7663</prepAdherence>
            <prepRetention>0.120,0.039,0.041,0.012,0.012,0.012,0.021,0.021,0.022,0.004,0.004,0.004</prepRetention>
-          <prepReturnToCare>0.000021,0.000097,0.000133,0.000265,0.000398,0.000701,0.001036,0.001242,0.001369</prepReturnToCare>
+          <prepReturnToCare>0.00000021,0.00000097,0.00000133,0.00000265,0.00000398,0.00000701,0.00001036,0.00001242,0.00001369</prepReturnToCare>
         </demographic>
         
 		<demographic bucket="SA:MALE:MSMW:*:*:WHITE:NON_HISPANIC"> <!--WHITES-->
-          <prepAccess>0.001348,0.004203,0.008932,0.014711,0.028888,0.047683,0.074573,0.093803,0.101715</prepAccess>
+          <prepAccess>0.00001348,0.00004203,0.00008932,0.00014711,0.00028888,0.00047683,0.00074573,0.00093803,0.00101715</prepAccess>
           <prepAdherence>0.0189,0.0257,0.04,0.9154</prepAdherence>
            <prepRetention>0.020,0.020,0.020,0.010,0.010,0.010,0.010,0.011,0.011,0.015,0.015,0.015</prepRetention>
-          <prepReturnToCare>0.001348,0.004203,0.008932,0.014711,0.028888,0.047683,0.074573,0.093803,0.101715</prepReturnToCare>
+          <prepReturnToCare>0.00001348,0.00004203,0.00008932,0.00014711,0.00028888,0.00047683,0.00074573,0.00093803,0.00101715</prepReturnToCare>
         </demographic>
         <demographic bucket="SA:MALE:MSMW:*:*:WHITE:HISPANIC"> <!--HISPANIC-->
-          <prepAccess>0.001348,0.004203,0.008932,0.014711,0.028888,0.047683,0.074573,0.093803,0.101715</prepAccess>
+          <prepAccess>0.00001348,0.00004203,0.00008932,0.00014711,0.00028888,0.00047683,0.00074573,0.00093803,0.00101715</prepAccess>
           <prepAdherence>0.0568,0.0449,0.1320,0.7663</prepAdherence>
            <prepRetention>0.120,0.039,0.041,0.012,0.012,0.012,0.021,0.021,0.022,0.004,0.004,0.004</prepRetention>
-          <prepReturnToCare>0.001348,0.004203,0.008932,0.014711,0.028888,0.047683,0.074573,0.093803,0.101715</prepReturnToCare>
+          <prepReturnToCare>0.00001348,0.00004203,0.00008932,0.00014711,0.00028888,0.00047683,0.00074573,0.00093803,0.00101715</prepReturnToCare>
         </demographic>
         <demographic bucket="SA:MALE:MSMW:*:*:BLACK:NON_HISPANIC"> <!--BLACKS-->
-          <prepAccess>0.001348,0.004203,0.008932,0.014711,0.028888,0.047683,0.074573,0.093803,0.101715</prepAccess>
+          <prepAccess>0.00001348,0.00004203,0.00008932,0.00014711,0.00028888,0.00047683,0.00074573,0.00093803,0.00101715</prepAccess>
           <prepAdherence>0.0455,0.1317,0.2484,0.5744</prepAdherence>
            <prepRetention>0.150,0.058,0.062,0.031,0.032,0.033,0.014,0.014,0.015,0.015,0.015,0.015</prepRetention>
-          <prepReturnToCare>0.001348,0.004203,0.008932,0.014711,0.028888,0.047683,0.074573,0.093803,0.101715</prepReturnToCare>
+          <prepReturnToCare>0.00001348,0.00004203,0.00008932,0.00014711,0.00028888,0.00047683,0.00074573,0.00093803,0.00101715</prepReturnToCare>
         </demographic>
         <demographic bucket="SA:MALE:MSMW:*:*:BLACK:HISPANIC"> <!--HISPANICS-->
-          <prepAccess>0.001348,0.004203,0.008932,0.014711,0.028888,0.047683,0.074573,0.093803,0.101715</prepAccess>
+          <prepAccess>0.00001348,0.00004203,0.00008932,0.00014711,0.00028888,0.00047683,0.00074573,0.00093803,0.00101715</prepAccess>
           <prepAdherence>0.0568,0.0449,0.1320,0.7663</prepAdherence>
            <prepRetention>0.120,0.039,0.041,0.012,0.012,0.012,0.021,0.021,0.022,0.004,0.004,0.004</prepRetention>
-          <prepReturnToCare>0.001348,0.004203,0.008932,0.014711,0.028888,0.047683,0.074573,0.093803,0.101715</prepReturnToCare>
+          <prepReturnToCare>0.00001348,0.00004203,0.00008932,0.00014711,0.00028888,0.00047683,0.00074573,0.00093803,0.00101715</prepReturnToCare>
         </demographic>
         <demographic bucket="SA:MALE:MSM:*:*:WHITE:NON_HISPANIC"> <!--WHITES-->
-          <prepAccess>0.001348,0.004203,0.008932,0.014711,0.028888,0.047683,0.074573,0.093803,0.101715</prepAccess>
+          <prepAccess>0.00001348,0.00004203,0.00008932,0.00014711,0.00028888,0.00047683,0.00074573,0.00093803,0.00101715</prepAccess>
           <prepAdherence>0.0189,0.0257,0.04,0.9154</prepAdherence>
            <prepRetention>0.020,0.020,0.020,0.010,0.010,0.010,0.010,0.011,0.011,0.015,0.015,0.015</prepRetention>
-          <prepReturnToCare>0.001348,0.004203,0.008932,0.014711,0.028888,0.047683,0.074573,0.093803,0.101715</prepReturnToCare>
+          <prepReturnToCare>0.00001348,0.00004203,0.00008932,0.00014711,0.00028888,0.00047683,0.00074573,0.00093803,0.00101715</prepReturnToCare>
         </demographic>
         <demographic bucket="SA:MALE:MSM:*:*:WHITE:HISPANIC"> <!--HISPANICS-->
-          <prepAccess>0.001348,0.004203,0.008932,0.014711,0.028888,0.047683,0.074573,0.093803,0.101715</prepAccess>
+          <prepAccess>0.00001348,0.00004203,0.00008932,0.00014711,0.00028888,0.00047683,0.00074573,0.00093803,0.00101715</prepAccess>
           <prepAdherence>0.0568,0.0449,0.1320,0.7663</prepAdherence>
            <prepRetention>0.120,0.039,0.041,0.012,0.012,0.012,0.021,0.021,0.022,0.004,0.004,0.004</prepRetention>
-          <prepReturnToCare>0.001348,0.004203,0.008932,0.014711,0.028888,0.047683,0.074573,0.093803,0.101715</prepReturnToCare>
+          <prepReturnToCare>0.00001348,0.00004203,0.00008932,0.00014711,0.00028888,0.00047683,0.00074573,0.00093803,0.00101715</prepReturnToCare>
         </demographic>
         <demographic bucket="SA:MALE:MSM:*:*:BLACK:NON_HISPANIC"> <!--BLACKS-->
-          <prepAccess>0.001348,0.004203,0.008932,0.014711,0.028888,0.047683,0.074573,0.093803,0.101715</prepAccess>
+          <prepAccess>0.00001348,0.00004203,0.00008932,0.00014711,0.00028888,0.00047683,0.00074573,0.00093803,0.00101715</prepAccess>
           <prepAdherence>0.0455,0.1317,0.2484,0.5744</prepAdherence>
            <prepRetention>0.150,0.058,0.062,0.031,0.032,0.033,0.014,0.014,0.015,0.015,0.015,0.015</prepRetention>
-          <prepReturnToCare>0.001348,0.004203,0.008932,0.014711,0.028888,0.047683,0.074573,0.093803,0.101715</prepReturnToCare>
+          <prepReturnToCare>0.00001348,0.00004203,0.00008932,0.00014711,0.00028888,0.00047683,0.00074573,0.00093803,0.00101715</prepReturnToCare>
         </demographic>
         <demographic bucket="SA:MALE:MSM:*:*:BLACK:HISPANIC"> <!--HISPANICS-->
-          <prepAccess>0.001348,0.004203,0.008932,0.014711,0.028888,0.047683,0.074573,0.093803,0.101715</prepAccess>
+          <prepAccess>0.00001348,0.00004203,0.00008932,0.00014711,0.00028888,0.00047683,0.00074573,0.00093803,0.00101715</prepAccess>
           <prepAdherence>0.0568,0.0449,0.1320,0.7663</prepAdherence>
            <prepRetention>0.120,0.039,0.041,0.012,0.012,0.012,0.021,0.021,0.022,0.004,0.004,0.004</prepRetention>
-          <prepReturnToCare>0.001348,0.004203,0.008932,0.014711,0.028888,0.047683,0.074573,0.093803,0.101715</prepReturnToCare>
+          <prepReturnToCare>0.00001348,0.00004203,0.00008932,0.00014711,0.00028888,0.00047683,0.00074573,0.00093803,0.00101715</prepReturnToCare>
         </demographic>
         <demographic bucket="SA:FEMALE:MSW:*:NON_CSW:WHITE:NON_HISPANIC"> <!--WHITES-->
-          <prepAccess>0.000029,0.000066,0.000083,0.000135,0.0002911,0.000847,0.001772,0.001844,0.00136</prepAccess>
+          <prepAccess>0.00000029,0.00000066,0.00000083,0.00000135,0.000002911,0.00000847,0.00001772,0.00001844,0.0000136</prepAccess>
           <prepAdherence>0.0189,0.0257,0.04,0.9154</prepAdherence>
            <prepRetention>0.020,0.020,0.020,0.010,0.010,0.010,0.010,0.011,0.011,0.015,0.015,0.015</prepRetention>
-          <prepReturnToCare>0.000029,0.000066,0.000083,0.000135,0.0002911,0.000847,0.001772,0.001844,0.00136</prepReturnToCare>
+          <prepReturnToCare>0.00000029,0.00000066,0.00000083,0.00000135,0.000002911,0.00000847,0.00001772,0.00001844,0.0000136</prepReturnToCare>
         </demographic>
         <demographic bucket="SA:FEMALE:MSW:*:NON_CSW:WHITE:HISPANIC"> <!--HISPANIC-->
-          <prepAccess>0.000029,0.000066,0.000083,0.000135,0.0002911,0.000847,0.001772,0.001844,0.00136</prepAccess>
+          <prepAccess>0.00000029,0.00000066,0.00000083,0.00000135,0.000002911,0.00000847,0.00001772,0.00001844,0.0000136</prepAccess>
           <prepAdherence>0.0568,0.0449,0.1320,0.7663</prepAdherence>
            <prepRetention>0.120,0.039,0.041,0.012,0.012,0.012,0.021,0.021,0.022,0.004,0.004,0.004</prepRetention>
-          <prepReturnToCare>0.000029,0.000066,0.000083,0.000135,0.0002911,0.000847,0.001772,0.001844,0.00136</prepReturnToCare>
+          <prepReturnToCare>0.00000029,0.00000066,0.00000083,0.00000135,0.000002911,0.00000847,0.00001772,0.00001844,0.0000136</prepReturnToCare>
         </demographic>
         <demographic bucket="SA:FEMALE:MSW:*:NON_CSW:BLACK:NON_HISPANIC"> <!--BLACKS-->
-          <prepAccess>0.000029,0.000066,0.000083,0.000135,0.0002911,0.000847,0.001772,0.001844,0.00136</prepAccess>
+          <prepAccess>0.00000029,0.00000066,0.00000083,0.00000135,0.000002911,0.00000847,0.00001772,0.00001844,0.0000136</prepAccess>
           <prepAdherence>0.0455,0.1317,0.2484,0.5744</prepAdherence>
            <prepRetention>0.150,0.058,0.062,0.031,0.032,0.033,0.014,0.014,0.015,0.015,0.015,0.015</prepRetention>
-          <prepReturnToCare>0.000029,0.000066,0.000083,0.000135,0.0002911,0.000847,0.001772,0.001844,0.00136</prepReturnToCare>
+          <prepReturnToCare>0.00000029,0.00000066,0.00000083,0.00000135,0.000002911,0.00000847,0.00001772,0.00001844,0.0000136</prepReturnToCare>
         </demographic>
         <demographic bucket="SA:FEMALE:MSW:*:NON_CSW:BLACK:HISPANIC"> <!--HISPANIC-->
-          <prepAccess>0.000029,0.000066,0.000083,0.000135,0.0002911,0.000847,0.001772,0.001844,0.00136</prepAccess>
+          <prepAccess>0.00000029,0.00000066,0.00000083,0.00000135,0.000002911,0.00000847,0.00001772,0.00001844,0.0000136</prepAccess>
           <prepAdherence>0.0568,0.0449,0.1320,0.7663</prepAdherence>
            <prepRetention>0.120,0.039,0.041,0.012,0.012,0.012,0.021,0.021,0.022,0.004,0.004,0.004</prepRetention>
-          <prepReturnToCare>0.000029,0.000066,0.000083,0.000135,0.0002911,0.000847,0.001772,0.001844,0.00136</prepReturnToCare>
+          <prepReturnToCare>0.00000029,0.00000066,0.00000083,0.00000135,0.000002911,0.00000847,0.00001772,0.00001844,0.0000136</prepReturnToCare>
         </demographic>
         <demographic bucket="SA:FEMALE:MSW:*:CSW:WHITE:NON_HISPANIC"> <!--WHITES-->
-          <prepAccess>0.000029,0.000066,0.000083,0.000135,0.0002911,0.000847,0.001772,0.001844,0.00136</prepAccess>
+          <prepAccess>0.00000029,0.00000066,0.00000083,0.00000135,0.000002911,0.00000847,0.00001772,0.00001844,0.0000136</prepAccess>
           <prepAdherence>0.0189,0.0257,0.04,0.9154</prepAdherence>
            <prepRetention>0.020,0.020,0.020,0.010,0.010,0.010,0.010,0.011,0.011,0.015,0.015,0.015</prepRetention>
-          <prepReturnToCare>0.000029,0.000066,0.000083,0.000135,0.0002911,0.000847,0.001772,0.001844,0.00136</prepReturnToCare>
+          <prepReturnToCare>0.00000029,0.00000066,0.00000083,0.00000135,0.000002911,0.00000847,0.00001772,0.00001844,0.0000136</prepReturnToCare>
         </demographic>
         <demographic bucket="SA:FEMALE:MSW:*:CSW:WHITE:HISPANIC"> <!--HISPANICS-->
-          <prepAccess>0.000029,0.000066,0.000083,0.000135,0.0002911,0.000847,0.001772,0.001844,0.00136</prepAccess>
+          <prepAccess>0.00000029,0.00000066,0.00000083,0.00000135,0.000002911,0.00000847,0.00001772,0.00001844,0.0000136</prepAccess>
           <prepAdherence>0.0568,0.0449,0.1320,0.7663</prepAdherence>
            <prepRetention>0.120,0.039,0.041,0.012,0.012,0.012,0.021,0.021,0.022,0.004,0.004,0.004</prepRetention>
-          <prepReturnToCare>0.000029,0.000066,0.000083,0.000135,0.0002911,0.000847,0.001772,0.001844,0.00136</prepReturnToCare>
+          <prepReturnToCare>0.00000029,0.00000066,0.00000083,0.00000135,0.000002911,0.00000847,0.00001772,0.00001844,0.0000136</prepReturnToCare>
         </demographic>
         <demographic bucket="SA:FEMALE:MSW:*:CSW:BLACK:NON_HISPANIC"> <!--BLACKS-->
-          <prepAccess>0.000029,0.000066,0.000083,0.000135,0.0002911,0.000847,0.001772,0.001844,0.00136</prepAccess>
+          <prepAccess>0.00000029,0.00000066,0.00000083,0.00000135,0.000002911,0.00000847,0.00001772,0.00001844,0.0000136</prepAccess>
           <prepAdherence>0.0455,0.1317,0.2484,0.5744</prepAdherence>
            <prepRetention>0.150,0.058,0.062,0.031,0.032,0.033,0.014,0.014,0.015,0.015,0.015,0.015</prepRetention>
-          <prepReturnToCare>0.000029,0.000066,0.000083,0.000135,0.0002911,0.000847,0.001772,0.001844,0.00136</prepReturnToCare>
+          <prepReturnToCare>0.00000029,0.00000066,0.00000083,0.00000135,0.000002911,0.00000847,0.00001772,0.00001844,0.0000136</prepReturnToCare>
         </demographic>
         <demographic bucket="SA:FEMALE:MSW:*:CSW:BLACK:HISPANIC"> <!--HISPANIC-->
-          <prepAccess>0.000029,0.000066,0.000083,0.000135,0.0002911,0.000847,0.001772,0.001844,0.00136</prepAccess>
+          <prepAccess>0.00000029,0.00000066,0.00000083,0.00000135,0.000002911,0.00000847,0.00001772,0.00001844,0.0000136</prepAccess>
           <prepAdherence>0.0568,0.0449,0.1320,0.7663</prepAdherence>
            <prepRetention>0.120,0.039,0.041,0.012,0.012,0.012,0.021,0.021,0.022,0.004,0.004,0.004</prepRetention>
-          <prepReturnToCare>0.000029,0.000066,0.000083,0.000135,0.0002911,0.000847,0.001772,0.001844,0.00136</prepReturnToCare>
+          <prepReturnToCare>0.00000029,0.00000066,0.00000083,0.00000135,0.000002911,0.00000847,0.00001772,0.00001844,0.0000136</prepReturnToCare>
         </demographic>
       </prepProfiles>
     </preExposureProphylaxis>
