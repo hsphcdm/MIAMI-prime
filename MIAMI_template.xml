@@ -470,6 +470,8 @@
           <highRiskCswAcqRateMultiplier enabled="true">@high_risk_mult_CSW</highRiskCswAcqRateMultiplier> <!-- BM 03 21 2022, NMR-->
           <proportionHighRiskCsw>1</proportionHighRiskCsw>
           <proportionHighRiskNonCsw>@prop_high_risk_M</proportionHighRiskNonCsw> <!-- BM, 03 21 2022, NMR-->
+          <multiplierHighRiskNonCswWhite>@hr_mult_white_M</multiplierHighRiskNonCswWhite>
+          <multiplierHighRiskNonCswBlack>@hr_mult_black_M</multiplierHighRiskNonCswBlack> 
           <chanceMsmwChooseMale>0.5</chanceMsmwChooseMale> <!-- Not changed, does have to change??? NMR-->
           <chanceMsmChooseMsmw>0.29</chanceMsmChooseMsmw> <!-- Not changed, does have to change??? NMR-->
           <ageDiscounting>
@@ -760,7 +762,9 @@
           <chanceBecomeSexWorker>@chance_CSW_F</chanceBecomeSexWorker> <!--BM 03 21 2022, NMR-->
           <!-- Median from Botswana BM Rates -->
           <proportionHighRiskCsw>1</proportionHighRiskCsw> <!-- ??? NOT changed, NMR-->
-          <proportionHighRiskNonCsw>@prop_high_risk_F</proportionHighRiskNonCsw> <!--BM 03 21 2022, NMR-->
+          <proportionHighRiskNonCsw>@prop_high_risk_F,@hr_mult_white_F,@hr_mult_black_M</proportionHighRiskNonCsw> <!--BM 03 21 2022, NMR--> <!-- it has to female proportion, white multiplier, black multiplier-->
+          <multiplierHighRiskNonCswWhite>@hr_mult_white_F</multiplierHighRiskNonCswWhite>
+          <multiplierHighRiskNonCswBlack>@hr_mult_black_F</multiplierHighRiskNonCswBlack>
           <!-- Median from Botswana BM Rates -->
         </behavior>
         <health>
