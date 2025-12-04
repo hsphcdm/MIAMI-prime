@@ -1,10 +1,6 @@
 chance_CSW_F    Uniform    0.0047    0.011
 prop_high_risk_M    Uniform    0.0426    0.391
 prop_high_risk_F    Uniform    0.0088    0.27
-hr_mult_white_M Uniform 0.5 1.0
-hr_mult_black_M Uniform 1.0 1.5
-hr_mult_white_f Uniform 0.5 1.0
-hr_mult_black_f Uniform 1.0 1.5
 num_acts_per_month_reg    Uniform    6    8
 high_risk_mult    Uniform    1    10
 high_risk_mult_CSW    Uniform    30    100
@@ -12,7 +8,7 @@ part_acq_mult_steady    Uniform    0    1
 steady_part_acq_rate_low    Uniform    0.004104    0.01438
 reg_part_acq_rate_low    Uniform    0.0008    0.01735
 casual_part_acq_rate_low    Uniform    0.01056    0.03384
-csw_part_acq_rate_low    Uniform    0.00025    0.1
+csw_part_acq_rate_low    Uniform    0.00025    0.0010
 steady_part_acq_rate_hi    Equation    steady_part_acq_rate_low*high_risk_mult
 reg_part_acq_rate_hi    Equation    reg_part_acq_rate_low*high_risk_mult
 casual_part_acq_rate_hi    Equation    casual_part_acq_rate_low*high_risk_mult
