@@ -1,0 +1,36 @@
+# ---- simulation output -------------------------------------------------
+# Every run writes results_<scenario>/ next to the scenario file.
+results_*/
+focus_enrollment_*/
+
+# Output artefacts, wherever they land
+*.xls
+*.graphml
+*.out
+*.cout
+*.log
+
+# ---- scratch, archives, local state ------------------------------------
+*.zip
+status.db
+imgui.ini
+callgrind.out
+
+# Windows "downloaded file" metadata streams
+*:Zone.Identifier
+
+# Compiled binaries kept alongside runs
+transm-v*.*.*
+
+# ---- generated / bulk analysis trees ------------------------------------
+# Machine-generated calibration sweeps (hundreds of perturbed copies)
+814/
+# Nested analysis working dirs, each carrying its own INFILES and outputs
+Noes_tests/
+FOCUS_analysis/
+linkage_test/
+older_focus_test/
+
+# CEPAC input variants (large; the canonical set is INFILES/)
+INFILES_*/
+INFILE_*/

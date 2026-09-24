@@ -1,6 +1,6 @@
 <simulation version="4.5">
   <debugLevel>0</debugLevel>
-  <duration>1000</duration>
+  <duration>1200</duration>
   <fixedSeed>0</fixedSeed>
   <monthOf1990>600</monthOf1990>
   <traceFiles>
@@ -56,7 +56,7 @@
       <time>599</time>
       <time>660</time>
     </partnerAcquisition>
-    <partnerNetwork enabled="false" tossIfCalibFail="false">
+    <partnerNetwork enabled="true" tossIfCalibFail="false">
       <time>6</time>
       <time>60</time>
       <time>120</time>
@@ -201,7 +201,7 @@
   <population id="Miami">
     <ageOfMajority>17</ageOfMajority>
     <initialState useCounts="false">
-      <size>100000</size>
+      <size>10000</size>
       <useCounts>false</useCounts>
       <entityDistributions>
         <ageRangeDistributions>

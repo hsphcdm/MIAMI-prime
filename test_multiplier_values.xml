@@ -1,6 +1,6 @@
 <simulation version="4.5">
   <debugLevel>0</debugLevel>
-  <duration>1000</duration>
+  <duration>1200</duration>
   <fixedSeed>0</fixedSeed>
   <monthOf1990>600</monthOf1990>
   <traceFiles>
@@ -490,6 +490,8 @@
           <highRiskCswAcqRateMultiplier enabled="true">59.60886830742491</highRiskCswAcqRateMultiplier> <!-- BM 03 21 2022, NMR-->
           <proportionHighRiskCsw>1</proportionHighRiskCsw>
           <proportionHighRiskNonCsw>0.08923947933762211</proportionHighRiskNonCsw> <!-- BM, 03 21 2022, NMR-->
+          <multiplierHighRiskNonCswWhite>0.6</multiplierHighRiskNonCswWhite>
+          <multiplierHighRiskNonCswBlack>1.2</multiplierHighRiskNonCswBlack>
           <chanceMsmwChooseMale>0.5</chanceMsmwChooseMale> <!-- Not changed, does have to change??? NMR-->
           <chanceMsmChooseMsmw>0.29</chanceMsmChooseMsmw> <!-- Not changed, does have to change??? NMR-->
           <ageDiscounting>
@@ -781,6 +783,8 @@
           <!-- Median from Botswana BM Rates -->
           <proportionHighRiskCsw>1</proportionHighRiskCsw> <!-- ??? NOT changed, NMR-->
           <proportionHighRiskNonCsw>0.21223881589120097</proportionHighRiskNonCsw> <!--BM 03 21 2022, NMR-->
+          <multiplierHighRiskNonCswWhite>0.6</multiplierHighRiskNonCswWhite>
+          <multiplierHighRiskNonCswBlack>1.2</multiplierHighRiskNonCswBlack>
           <!-- Median from Botswana BM Rates -->
         </behavior>
         <health>
